@@ -1,0 +1,17 @@
+Package: chulangnghiem
+Title: Chu Lang Nghiem - Chant Helpers for Memorizing Lines
+Version: 0.0.1
+Authors@R:
+    person("Do", "Thanh Liem", email = "liem20k@gmail.com", role = c("aut","cre"))
+Description: Tools for chanting and memorizing lines of the Chu Lang Nghiem text.
+    Provides bundled text data and interactive functions to chant by line, block,
+    or keyword search.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    utils
+Suggests:
+    getPass,
+    rstudioapi
